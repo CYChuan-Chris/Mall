@@ -20,6 +20,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.chris.mall</groupId>
+            <artifactId>mall-util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
         </dependency>
