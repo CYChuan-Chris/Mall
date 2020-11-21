@@ -4,6 +4,26 @@
 # Log file
 *.log
 
+# maven files
+**/target/**/*
+**/bin/**/*
+**/.mvn/**/*
+
+# node files
+**/node_modules/**/*
+**/dist/**/*
+
+# eclipse files
+.classpath
+.project
+**/.settings
+**/.metadata
+Servers
+
+# idea files
+**/.idea
+**/*.iml
+
 # BlueJ files
 *.ctxt
 
