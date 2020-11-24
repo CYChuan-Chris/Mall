@@ -15,5 +15,16 @@
     <name>mall-api</name>
     <description>Interfaces and Entities for Modularity of Mall</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.chris.mall</groupId>
+            <artifactId>mall-util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 </project>
